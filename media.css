@@ -48,6 +48,7 @@
     }
 
     .gallery__image {
+        width: auto;
         height: 50vh;
     }
 }
