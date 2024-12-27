@@ -48,8 +48,26 @@
     }
 
     .gallery__image {
-        width: auto;
         height: 50vh;
+    }
+
+    .teachers__gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .teachers__image {
+        width: 1000px;
+        height: 50vh;
+    }
+
+    .student__gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
     }
 }
 
@@ -78,6 +96,26 @@
 
     .footer__content {
         max-width: 60%;
+    }
+
+    .history__interview {
+        flex-direction: column-reverse;
+    }
+
+    .teachers__interview {
+        max-width: 100%;
+    }
+
+    .teachers__director {
+        max-width: 50vw;
+    }
+
+    .director__descr {
+        display: none;
+    }
+
+    .history__text {
+        max-width: 100%;
     }
 }
 
@@ -187,12 +225,6 @@
         font-size: 22px;
     }
 
-    .menu__list {
-        gap: 30px;
-        padding: 0;
-        margin: 0 auto;
-    }
-
 
     .title {
         max-width: 70%;
@@ -201,6 +233,44 @@
 
     .footer__content {
         max-width: 90%;
+    }
+
+    .founder__content {
+        flex-direction: column;
+    }
+
+    .founder__descr {
+        max-width: 100%;
+    }
+
+
+    .menu__list {
+        flex-direction: column;
+        max-width: 200px;
+        gap: 30px;
+        padding: 0;
+        margin-left: auto;
+    }
+
+    .logo {
+        align-self: start;     
+    }
+
+    .history__house:nth-child(1n) {
+        flex-direction: column; 
+    }
+
+    .history__house__descr {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .history__house img {
+        width: 100%;
+    }
+
+    .founder__image {
+        max-height: 45vh ;
     }
 }
 
@@ -252,6 +322,10 @@
 
     .gallery__image {
         height: 80vh;
+    }
+
+    .teachers__image {
+        height: 50vh;
     }
 
     .calendar {
@@ -311,6 +385,7 @@
 
     .menu__list {
         gap: 10px;
+        margin: 0 auto;
     }
 
     .menu__link {
@@ -319,7 +394,15 @@
 
     .menu {
         padding-inline: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 0;
+    }
+
+    .years {
+        font-size: 18px;
+    }
+
+    .founder__text {
+        font-size: 16px;
     }
 
     .header__background {
@@ -328,6 +411,14 @@
 
     .black {
         color: #1a2c12;
+    }
+
+    .history__house {
+        gap: 15px;
+    }
+
+    .history__house__descr {
+        font-size: 16px;
     }
 
     .history__text {
@@ -343,6 +434,10 @@
         height: 200px;
         top: 8%;
         right: -16px;
+    }
+
+    .teachers__director {
+        max-width: 100%;
     }
 
     .tooltip .tooltiptext{
@@ -390,6 +485,8 @@
     .footer-title {
         font-size: 22px;
     }
+
+
 }
 
 /* 320px */
